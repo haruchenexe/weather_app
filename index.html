@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather_App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="UIcontainer">
+        <div id="leftcontainer">
+            <div id="Lleftcontainerspacer"></div>
+            <div id="weatherinfo">
+                <div id="leftresult">
+                    <div class="leftinfo">
+                        <div class="LeftInfo" id="Linfo1">
+                            <div id="fahrenheit"></div>
+                            <div id="celsius"></div>
+                        </div>
+                        <div class="LeftInfo" id="Linfo2">
+                            <div id="city"></div>
+                            <div id="time"></div>
+                        </div>
+                        <div class="LeftInfo" id="Linfo3">
+                            <ii class="fa fa-cloud" id="cloudicon"></ii>
+                            <div id="cloudy"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Lrightcontainerspacer"></div>
+        </div>
+        <div id="rightcontainer">
+            <div id="Rrightcontainerspacer"></div>
+            <div id="rightresult">
+                <div class="rightinfo" id="inputbox">
+                    <input id="citySearch" type="text" placeholder="Search Location...">
+                    <i class="fa fa-search" id="searchicon"></i>
+                </div>
+                <div class="rightinfo" id="weatherdetails">
+                    <h3>Weather Details</h3>
+                    <div id=topholder>
+                        <div id="Rinfo1">
+                            <h4>Pressure</h4>
+                            <div id="pressure"></div>
+                        </div>
+                        <div id="Rinfo2">
+                            <h4>Humidity</h4>
+                            <div id="humidity"></div>
+                        </div>
+                        <div id="Rinfo3">
+                            <h4>Wind</h4>
+                            <div id="wind"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightinfo" id="temperaturedetails">
+                    <h3>Temperature Details</h3>
+                    <div id=bottomholder>
+                        <div id="Rinfo4">
+                            <h4>Min Celsius</h4>
+                            <div id="minTempC"></div>
+                        </div>
+                        <div id="Rinfo5">
+                            <h4>Max Celsius</h4>
+                            <div id="maxTempC"></div>
+                        </div>
+                        <div id="Rinfo6">
+                            <h4>Min Fahrenheit</h4>
+                            <div id="minTempF"></div>
+                        </div>
+                        <div id="Rinfo7">
+                            <h4>Max Fahrenheit</h4>
+                            <div id="maxTempF"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Rleftcontainerspacer"></div>    
+        </div>
+    </div>
+    <div id="UIfooter"></div>
+    <script type="text/javascript" src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
