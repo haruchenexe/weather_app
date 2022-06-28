@@ -1,5 +1,4 @@
-
-var api_key = config.WEATHER_API_KEY;
+var api_key = 'fb4f224600996dde22caa09827e026ec';
 
 let default_city = 'London';
 let default_country = 'uk';
